@@ -1,0 +1,134 @@
+section{
+  width: 100%;
+  .testTominal{
+    width: 100%;
+    background-color: #FBF1E7;
+    .testTominal-content{
+      position: relative;
+      width: 80%;
+      margin: 0 auto;
+      .testTominal-left{
+        width: 50%;
+        @media(max-width:1200px){
+          width: 60%;
+          margin: 0 auto;
+          text-align: center;
+        }
+        @media(max-width:992px){
+          width: 80%;
+        }
+        h5{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.2em;
+          text-transform: uppercase;
+          color: #DC780B;
+          opacity: 0.7;
+          padding-top: 110px;
+        }
+        h4{
+          font-style: normal;
+          font-weight: bold;
+          font-size: 31.25px;
+          line-height: 41px;
+          color: #150C01;
+          padding-bottom: 20px;
+        }
+        p{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          color: #150C01;
+          opacity: 0.7;
+          padding-bottom: 20px;
+        }
+        .social-apk{
+          display: flex;
+          align-items: center;
+          padding-bottom: 100px;
+          width: 100%;
+          flex-wrap: wrap;
+          @media(max-width:1200px){
+            justify-content: center;
+          }
+          button{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
+            &:focus{
+              box-shadow: none;
+            }
+          }
+          .apple{
+            background: #150C01;
+            border-radius: 5px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+          
+            a{
+              text-decoration: none;
+              color:#fff;
+              &:focus{
+                color:#DC780B;
+              }
+            }
+          }
+          .google{
+            border: 1.5px solid #150C01;
+            box-sizing: border-box;
+            border-radius: 5px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            margin-bottom: 10px;
+            a{
+              text-decoration: none;
+              color: #150C01;
+            }
+          }
+        }
+      }
+      .wrap-iphone{
+        width: 60%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: -15%;
+        text-align: end;
+        .iphone{
+          width: 50%;
+        }
+        @media(max-width:1200px){
+          width: 80%;
+          display: block;
+          position: static;
+          text-align: center;
+          margin:  0 auto;
+          @media(max-width:992px){
+            .iphone{
+              width: 60%;
+            }
+          }
+          @media(max-width:768px){
+            width: 100%;
+            .iphone{
+              width: 60%;
+            }
+          }
+          @media(max-width:576px){
+            width: 100%;
+            .iphone{
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+    
+  }
+}
